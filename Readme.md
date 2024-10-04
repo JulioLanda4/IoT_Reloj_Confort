@@ -61,4 +61,4 @@ The repository is organised in the following folders:
 ### License
 
 This project is licensed under the **GNU General Public License v3.0**.
-# IoT_Reloj_Confort
+
