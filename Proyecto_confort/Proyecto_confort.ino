@@ -174,7 +174,7 @@ void MedirSensores(unsigned long Tlectura, int lecturas) {
 
     float averageTemp = sumTemp / numReadings;
     Temperatura = roundf((averageTemp * 0.54 + 18.06) * 10) / 10.0;  // Guardar y ajustar temperatura
-    BPMs = beatAvg;  // Guardar promedio de pulsos
+    BPMs = beatAvg;  // Guardar promedio de los pulsos
 
     particleSensor.shutDown();  // Apagar el sensor de pulso
     mlxSleep();  // Poner en reposo el sensor de temperatura
